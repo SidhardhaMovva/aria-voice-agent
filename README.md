@@ -166,6 +166,9 @@ Key environment variables (see `.env.example` for the full list):
 |----------|-------------|
 | [ARCHITECTURE.md](ARCHITECTURE.md) | End-to-end architecture, pipeline stages, latency vs quality. |
 | [DIAGNOSTICS.md](DIAGNOSTICS.md) | Where the pipeline can break, latency targets, learning-from-feedback. |
+| [docs/CALL_FLOW_REFERENCE.md](docs/CALL_FLOW_REFERENCE.md) | Expected caller experience from greeting through escalation and goodbye. |
+| [docs/DATA_LIFECYCLE.md](docs/DATA_LIFECYCLE.md) | How local seed data, runtime data, review notes, and cleanup should work. |
+| [docs/LATENCY_REVIEW.md](docs/LATENCY_REVIEW.md) | Checklist for reviewing turn timing and provider bottlenecks after demos. |
 | [docs/OPERATIONS_RUNBOOK.md](docs/OPERATIONS_RUNBOOK.md) | Pre-run checks, session monitoring, cleanup, and recovery notes. |
 | [docs/ONBOARDING_CHECKLIST.md](docs/ONBOARDING_CHECKLIST.md) | New machine setup, first run, contributor context, and PR readiness. |
 | [docs/PROVIDER_TROUBLESHOOTING.md](docs/PROVIDER_TROUBLESHOOTING.md) | Deepgram, OpenAI, Cartesia, and cross-provider failure triage. |
